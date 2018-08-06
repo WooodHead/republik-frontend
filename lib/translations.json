@@ -1,5 +1,5 @@
 {
-  "updated": "2018-08-05T11:08:38.003Z",
+  "updated": "2018-08-07T09:37:41.657Z",
   "title": "live",
   "data": [
     {
@@ -25,6 +25,18 @@
     {
       "key": "nav/community",
       "value": "Community"
+    },
+    {
+      "key": "nav/team",
+      "value": "Team"
+    },
+    {
+      "key": "nav/offers",
+      "value": "Angebote"
+    },
+    {
+      "key": "nav/give",
+      "value": "Verschenken"
     },
     {
       "key": "navbar/front",
@@ -164,7 +176,43 @@
     },
     {
       "key": "signIn/success",
-      "value": "Erfolgreich angemeldet als {nameOrEmail} ({seconds}s)"
+      "value": "Erfolgreich angemeldet als {nameOrEmail}."
+    },
+    {
+      "key": "signIn/polling/APP/title",
+      "value": "Anmelden mit der App"
+    },
+    {
+      "key": "signIn/polling/APP/text",
+      "value": "Wir haben Ihnen eine Push-Nachricht geschickt. Öffnen Sie diese und bestätigen Sie dort diese Anmeldung."
+    },
+    {
+      "key": "signIn/polling/EMAIL_TOKEN/title",
+      "value": "Anmelden per E-Mail"
+    },
+    {
+      "key": "signIn/polling/EMAIL_TOKEN/text",
+      "value": "Wir haben ihnen eine E-Mail geschickt. Öffnen Sie diese und klicken Sie auf «Anmeldung bestätigen»."
+    },
+    {
+      "key": "signIn/polling/switch/APP",
+      "value": "Lieber per App anmelden?"
+    },
+    {
+      "key": "signIn/polling/switch/EMAIL_TOKEN",
+      "value": "Möchten Sie lieber eine E-Mail?"
+    },
+    {
+      "key": "signIn/polling/phrase",
+      "value": "Seltsame Wörter"
+    },
+    {
+      "key": "signIn/polling/email",
+      "value": "E-Mail"
+    },
+    {
+      "key": "signIn/polling/cancel",
+      "value": "Vertippt? Abbrechen und erneut versuchen."
     },
     {
       "key": "signIn/polling",
@@ -224,11 +272,11 @@
     },
     {
       "key": "cookies/disabled/error",
-      "value": "Cookies nicht nicht erlaubt"
+      "value": "Cookies nicht erlaubt"
     },
     {
       "key": "cookies/disabled/error/explanation",
-      "value": "Es scheint, als könnten wir Ihnen keinen Keks («Cookie») unterjubeln. Bitte erlauben Sie uns in Ihrem Browser ein Cookie zu hinterlegen. Das ermöglicht uns, Sie wiederzuerkennen und entsprechenden Zugriff auf Artikel und Diskussionen zu ermöglichen.<br /><br />\n<ul>\n<li>Lesen Sie <a href=\"https://wiki.selfhtml.org/wiki/Sicherheit/Cookies_erlauben\" target=\"_blank\">hier</a>, wie Sie Cookies für republik.ch erlauben können</li>\n<li>Lesen Sie <a href=\"/datenschutz\" target=\"_blank\">hier</a>, wie wir mit Ihren Daten umgehen</li>\n<li>Wir helfen Ihnen per E-Mail unter <a href=\"mailto:kontakt@republik.ch\">kontakt@republik.ch</a> gerne weiter</li>\n</ul>"
+      "value": "Es scheint, als könnten wir Ihnen keinen Keks (Cookie) unterjubeln. Bitte erlauben Sie uns in Ihrem Browser ein Cookie zu hinterlegen. Nur damit gestatten Sie uns, Sie wiederzuerkennen und entsprechenden Zugriff auf Artikel und Diskussionen zu ermöglichen.<br />\n<ul>\n<li><a href=\"https://wiki.selfhtml.org/wiki/Sicherheit/Cookies_erlauben\" target=\"_blank\">Cookies für republik.ch erlauben?</a></li>\n<li><a href=\"/datenschutz\" target=\"_blank\">Mehr über Datenschutz bei der Republik AG erfahren?</a></li>\n</ul>\nWir helfen Ihnen per E-Mail unter <a href=\"mailto:kontakt@republik.ch\">kontakt@republik.ch</a> gerne weiter."
     },
     {
       "key": "signOut/label",
@@ -1311,6 +1359,10 @@
       "value": "Profil"
     },
     {
+      "key": "footer/offers",
+      "value": "Angebote"
+    },
+    {
       "key": "footer/me/give",
       "value": "Verschenken"
     },
@@ -1888,7 +1940,7 @@
     },
     {
       "key": "payment/method/STRIPE",
-      "value": "Visa/MasterCard"
+      "value": "Visa/Mastercard"
     },
     {
       "key": "payment/method/PAYMENTSLIP",
@@ -1920,11 +1972,11 @@
     },
     {
       "key": "payment/stripe/prefered",
-      "value": "Falls es für Sie keinen Unterschied macht: Die Kreditkarte ist für uns das bevorzugte Zahlungsmittel."
+      "value": "Falls es für Sie keinen Unterschied macht: Die Kreditkarte (Visa, Mastercard) ist für uns das bevorzugte Zahlungsmittel."
     },
     {
       "key": "payment/stripe/only",
-      "value": "Das Monatsabo ist nur mit Kreditkarte verfügbar."
+      "value": "Das Monatsabo ist nur mit Kreditkarte (Visa, Mastercard) verfügbar."
     },
     {
       "key": "payment/stripe/js/loading",
@@ -2375,8 +2427,8 @@
       "value": "mit {count} Bildern"
     },
     {
-      "key": "merci/postpay/waiting",
-      "value": "Danke, Sie sind mit dem Wichtigsten durch. Jetzt müssen Sie noch Ihre Mailadresse bestätigen. Wir haben Ihnen ein kurzes Mail an die Adresse {email} geschickt. Dieses enthält fett gedruckt die drei seltsamen Wörter: <b>«{phrase}»</b>.<br /><br />Gehen Sie zu Ihrem Postfach, öffnen Sie das Mail, kontrollieren Sie, ob dort die drei gleichen seltsamen Wörter stehen. Sind es dieselben, klicken Sie den Link darunter. <br /><br /> (Die Sache mit den drei Wörtern ist leider nötig. Es ist eine Sicherheitsmassnahme, damit niemand mit Ihrer Mailadresse Unfug treiben kann.)"
+      "key": "merci/postpay/lead",
+      "value": "Danke, Sie sind mit dem Wichtigsten durch. Jetzt müssen Sie noch Ihre E-Mail-Adresse bestätigen."
     },
     {
       "key": "merci/postpay/reclaim",
@@ -2580,7 +2632,7 @@
     },
     {
       "key": "memberships/claim/lead",
-      "value": "Willkommen ab Bord! Hier können Sie Ihren Gutscheincode einlösen."
+      "value": "Willkommen an Bord! Hier können Sie Ihren Gutscheincode einlösen."
     },
     {
       "key": "memberships/claim/voucherCode/label",
