@@ -16,7 +16,10 @@ import SSRCachingBoundary, { webpCacheKey } from '../SSRCachingBoundary'
 
 import { renderMdast } from 'mdast-react-render'
 
-import { PUBLIC_BASE_URL } from '../../lib/constants'
+import {
+  PUBLIC_BASE_URL,
+  COOKIE_PORTAL_URL
+} from '../../lib/constants'
 
 const schema = createFrontSchema({
   Link
@@ -63,6 +66,17 @@ const styles = {
 
 class Front extends Component {
   render () {
+    if(process.browser) {
+      setInterval( () => {
+        fetch(COOKIE_PORTAL_URL, {
+          credentials: 'include'
+        })
+          .then(result => result.text())
+          .then(result => {
+            console.log(result)
+          })
+      }, 5000)
+    }
     const { url, data, fetchMore, data: { front }, t } = this.props
     const meta = front && {
       ...front.meta,
